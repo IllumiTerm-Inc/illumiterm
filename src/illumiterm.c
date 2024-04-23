@@ -1265,7 +1265,7 @@ void AboutWindow(GtkWindow* parent) {
     gtk_about_dialog_set_program_name(about_dialog, "IllumiTerm");
     gtk_about_dialog_set_version(about_dialog, "1.0.0");
     gtk_about_dialog_set_comments(about_dialog, "G.H.S");
-    gtk_about_dialog_set_website(about_dialog, "https://www.illumiterm.com");
+    gtk_about_dialog_set_website(about_dialog, "https://illumiterm.blogspot.com");
     gtk_about_dialog_set_license(about_dialog, "This program is free software; you can redistribute it and/or\n"
                                                "modify it under the terms of the GNU General Public License\n"
                                                "as published by the Free Software Foundation; either version 2\n"
