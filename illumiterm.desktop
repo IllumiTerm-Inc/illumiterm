@@ -1,0 +1,24 @@
+[Desktop Entry]
+Version=1.0
+Name=Illumiterm
+Comment=An example terminal application
+Exec=illumiterm
+Icon=/usr/share/icons/hicolor/24x24/apps/illumiterm.png
+Terminal=false
+Type=Application
+Categories=Utility;TerminalEmulator;
+
+[Desktop Action AllWindows]
+Name=All windows
+Exec=illumiterm --show-all-windows
+Icon=window-list
+
+[Desktop Action NewWindow]
+Name=New window
+Exec=illumiterm --new-window
+Icon=window-new
+
+[Desktop Action Quit]
+Name=Quit
+Exec=pkill illumiterm
+Icon=application-exit
