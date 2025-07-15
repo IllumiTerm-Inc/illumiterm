@@ -6,8 +6,12 @@
 
 A clean, sleek, and lightweight terminal emulator designed to make your workflow effortless and efficient. It puts you in total control with easy tab and window management, smooth navigation, and flexible tab naming. Handy edit options like copy, paste, clear scrollback, and zoom let you customize your experience on the fly. Resize, move, and toggle fullscreen windows seamlessly, all through an intuitive menu system backed by keyboard shortcuts and a smooth right-click context menu. Fast, simple, and thoughtfully built to keep you focused and productive.
 
-## On Debian, Ubuntu or their derivatives
+## Dependencies
+Basic requirements for building:
 
+- libvte-2.91-dev
+
+## On Debian, Ubuntu or their derivatives
 ```
 $ git clone https://github.com/IllumiTerm-Inc/illumiterm.git
 $ cd illumiterm
