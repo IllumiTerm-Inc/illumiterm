@@ -1,0 +1,24 @@
+[Desktop Entry]
+Version=1.0
+Name=IllumiTerm
+Comment=Terminal Emulator (IllumiTerm), written in VTE-2.91 (0.73.93) / GTK-3 (3.24.33)
+Exec=illumiterm
+Icon=/usr/share/icons/hicolor/24x24/apps/about.png
+Terminal=false
+Type=Application
+Categories=Utility;TerminalEmulator;
+
+[Desktop Action AllWindows]
+Name=All windows
+Exec=illumiterm --show-all-windows
+Icon=window-list
+
+[Desktop Action NewWindow]
+Name=New window
+Exec=illumiterm --new-window
+Icon=window-new
+
+[Desktop Action Quit]
+Name=Quit
+Exec=pkill illumiterm
+Icon=application-exit
